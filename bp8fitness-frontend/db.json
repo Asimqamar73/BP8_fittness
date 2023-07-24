@@ -1,0 +1,180 @@
+{
+  "visit-history": [
+    {
+        "id":1,
+        "day": "Monday",
+        "time": "10:00 AM",
+        "teacher": "John Doe",
+        "paymentMethod": "Credit Card",
+        "classType": "Mathematics",
+        "status": "Pending",
+        "web": "Online",
+        "paymentRef": "#123456"
+        
+      },
+      {
+        "id":2,
+        "day": "Tuesday",
+        "time": "2:30 PM",
+        "teacher": "Jane Smith",
+        "paymentMethod": "PayPal",
+        "classType": "English",
+        "status": "Enrolled",
+        "web": "On-site",
+        "paymentRef": "#789012"        
+      },
+      {
+        "id":3,
+        "day": "Tuesday",
+        "time": "2:30 PM",
+        "teacher": "Jane Smith",
+        "paymentMethod": "PayPal",
+        "classType": "English",
+        "status": "Enrolled",
+        "web": "On-site",
+        "paymentRef": "#789012"
+      },
+      {
+        "id":4,
+        "day": "Tuesday",
+        "time": "2:30 PM",
+        "teacher": "Jane Smith",
+        "paymentMethod": "PayPal",
+        "classType": "English",
+        "status": "Enrolled",
+        "web": "On-site",
+        "paymentRef": "#789012"
+      },
+      {
+        "id":5,
+        "day": "Tuesday",
+        "time": "2:30 PM",
+        "teacher": "Jane Smith",
+        "paymentMethod": "PayPal",
+        "classType": "English",
+        "status": "Enrolled",
+        "web": "On-site",
+        "paymentRef": "#789012"
+      },
+      {
+        "id":6,
+        "day": "Tuesday",
+        "time": "2:30 PM",
+        "teacher": "Jane Smith",
+        "paymentMethod": "PayPal",
+        "classType": "English",
+        "status": "Enrolled",
+        "web": "On-site",
+        "paymentRef": "#789012"
+      }
+  ],
+  "purchase-history": [
+    {
+      "id": 1,
+      "invoiceNumber": "INV987654",
+      "paymentDate": "2023-07-12",
+      "description": "Product XYZ",
+      "color": "Blue",
+      "size": "Large",
+      "status": "pending",
+      "location": "Store Y",
+      "paymentMethod": "Credit Card",
+      "price": "$39.99",
+      "quantity": 3,
+      "tax": "$5.25",
+      "amountPaid": "$129.72"
+    },    
+    {
+      "id": 2,
+      "invoiceNumber": "INV123456",
+      "paymentDate": "2023-06-20",
+      "description": "Product A",
+      "color": "Red",
+      "size": "Medium",
+      "status": "completed",
+      "location": "Store X",
+      "paymentMethod": "Credit Card",
+      "price": "$29.99",
+      "quantity": 2,
+      "tax": "$4.5",
+      "amountPaid": "$64.98"
+    },    
+    {
+      "id": 3,
+      "invoiceNumber": "INV789012",
+      "paymentDate": "2023-08-05",
+      "description": "Product ABC",
+      "color": "Green",
+      "size": "Small",
+      "status": "completed",
+      "location": "Store Z",
+      "paymentMethod": "PayPal",
+      "price": "$19.95",
+      "quantity": 1,
+      "tax": "$2.99",
+      "amountPaid": "$22.94"
+    },
+    {
+      "id": 4,
+      "invoiceNumber": "INV246813",
+      "paymentDate": "2023-09-15",
+      "description": "Product PQR",
+      "color": "Black",
+      "size": "Small",
+      "status": "shipped",
+      "location": "Warehouse W",
+      "paymentMethod": "Debit Card",
+      "price": "$45.50",
+      "quantity": 1,
+      "tax": "$3.25",
+      "amountPaid": "$48.75"
+    },
+    {
+      "id": 5,
+      "invoiceNumber": "INV135790",
+      "paymentDate": "2023-08-30",
+      "description": "Product LMN",
+      "color": "Yellow",
+      "size": "Large",
+      "status": "processing",
+      "location": "Store A",
+      "paymentMethod": "Cash",
+      "price": "$24.99",
+      "quantity": 4,
+      "tax": "$2.00",
+      "amountPaid": "$106.96"
+    }    
+  ],
+  "classes-and-events": [
+    {
+      "id":1,
+      "title":"7 Day Trial (Local Residents Only)",
+      "subTitle": "Join us for 7-day sweat dripping, heart-pumping fun!",
+      "expirationDate": "7 days from first use",
+      "price": "$35.00",
+      "category": "Functional Team Training"
+    },
+    {
+      "id":2,
+      "title":"Drop In",
+      "subTitle": "Any day. Any time.",
+      "price": "$30.00",
+      "category": "Functional Team Training"
+    },
+    {
+      "id":3,
+      "title":"10 Classes",
+      "expirationDate": "2023-12-05",
+      "price": "$265.00",
+      "category": "Other Team"
+    },
+    {
+      "id":4,
+      "title":"20 Classes",
+      "subTitle": "Train with us when it works for you! Passes are valid for 6 months from date of purchase.",
+      "expirationDate": "2023-08-15",
+      "price": "$495.00",
+      "category": "Other Team"
+    }
+  ]
+}

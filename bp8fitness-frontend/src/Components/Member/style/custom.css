@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.secction-head-fix{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: white;
+    width: 100%;
+}
+.sections-tabs-content{
+    padding-top: 210px;
+}
+.sections-tabs-content .fix-head{
+    position: sticky;
+    top: 200px;
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 4px;
+    margin-left: -20px;
+    margin-right: -20px;
+    z-index: 999999;
+   padding: 20px;
+}
+.sections-tabs-content .table{
+    padding-top: 25px;
+}
+@media only screen and (max-width: 768px){
+    .sections-tabs-content{
+        padding-top: 0;
+    }
+    .secction-head-fix{
+        position: unset;
+    }
+    .sections-tabs-content .fix-head{
+        position: unset;
+    }
+}

@@ -1,0 +1,25 @@
+version: '3'
+
+tasks:
+  desc: "start the project (for web-development only)"
+  start:
+    cmds:
+      - npm run start
+
+  build:
+    desc: "build the project and move the production artifact into the deployment folder (for production only)"
+    cmds:
+      - npm run build --production
+      - cp -Rf ./build/* ../bp8fitness-frontend-static
+      - rm -Rf ./build
+
+  deploy:
+    desc: "build the project and deploy to production server"
+    cmds:
+      - npm run build --production
+      - cp -Rf ./build/* ../bp8fitness-frontend-static
+      - rm -Rf ./build
+      - cd ../bp8fitness-frontend-static
+      - git add --all;
+      - git commit -m 'Latest progress.';
+      - git push origin master;
